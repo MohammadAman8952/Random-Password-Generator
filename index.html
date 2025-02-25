@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="inputbox">
+            <input type="text" class="Password" id="Password" >
+            <span id="copy" ><i class="fa-regular fa-copy"></i></span>
+         
+    
+        </div>
+        <input type="range" min="10" max="30" value="10" id="inputslider">
+        <div class="row">
+
+            <p>Password Length</p>
+            <span id="slidevalue">10</span>
+        </div>
+        <div class="row">
+            <label for="lowercase">Include Lower Letters (a-z)</label>
+            <input type="checkbox" name="lowercase" id="lowercase" checked>
+        </div>
+        <div class="row">
+            <label for="uppercase">Include Uppercase Letters (a-z)</label>
+            <input type="checkbox" name="uppercase" id="uppercase" checked>
+        </div>
+        <div class="row">
+            <label for="numbers">Include Numbers(0-9)</label>
+            <input type="checkbox" name="numbers" id="numbers" checked>
+        </div>
+        <div class="row">
+            <label for="symbols">Include Symbols(@.*)</label>
+            <input type="checkbox" name="symbols" id="symbols" checked>
+        </div>
+        <button type="button" class="btn" id="btn" >
+            Generate Password
+        </button>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
+<!-- 
+1.Here react is an javascript library to build dynamic and interactive user interface
+2.developed at facebook in 2011
+3.currently most widely used JS library for front-end development
+4.used to creste single page application -->9
